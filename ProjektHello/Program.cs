@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace ProjektHello
 {
@@ -6,7 +7,15 @@ namespace ProjektHello
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+         //   string name = args[0];
+           // System.Console.WriteLine("Hello World!" + name);
+
+            foreach (var item in args)
+            {
+                Console.WriteLine("Witaj " + item);
+
+            }
+            
         }
     }
 }
