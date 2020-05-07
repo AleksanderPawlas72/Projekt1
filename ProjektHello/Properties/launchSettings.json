@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProjektHello": {
+      "commandName": "Project",
+      "commandLineArgs": "Marcin Marek Mateusz Jan",
+      "remoteDebugEnabled": false
+    }
+  }
+}
